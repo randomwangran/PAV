@@ -1,0 +1,31 @@
+This is
+
+
+1. execute perlGlue.pl
+
+   this will return a file called test.py.
+
+2. add code of extractVelocity.py into the test.py as a "head"
+
+   this will create a whole package to extract the velocity field you are interested in.
+
+then upload test.py as your script to a server to extract your data
+
+
+   For example:
+
+      $ pvpython test.py
+
+## function explaination
+
+1. extractVelocity.py file
+
+   Specify the location of your case file that includes .foam
+
+2. perlGlue.pl
+
+   Specify the location of the sampling line to generate the velocity fild.
+
+  ==> line 17&18 change the line coodinates
+
+  ==> line 23 change the saving file path
