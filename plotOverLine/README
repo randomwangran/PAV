@@ -1,22 +1,21 @@
-This is
+These are scripts to do spatial averaging to a velocity field.
 
 
 1. execute perlGlue.pl
 
-   this will return a file called test.py.
+   It will return a file called test.py.
 
-2. add code of extractVelocity.py into the test.py as a "head"
+2. add the code of ''extractVelocity.py'' into the test.py as a "head"
 
-   this will create a whole package to extract the velocity field you are interested in.
+   It will create a final script to extract the velocity field.
 
-then upload test.py as your script to a server to extract your data
-
+3.  upload test.py to a server
 
    For example:
 
       $ pvpython test.py
 
-## function explaination
+## function explanation
 
 1. extractVelocity.py file
 
@@ -24,8 +23,8 @@ then upload test.py as your script to a server to extract your data
 
 2. perlGlue.pl
 
-   Specify the location of the sampling line to generate the velocity fild.
+   Specify the location of the sampling line to generate the velocity sampling points.
 
-  ==> line 17&18 change the line coodinates
+  ==> line 17&18 change the line coordinates
 
   ==> line 23 change the saving file path
